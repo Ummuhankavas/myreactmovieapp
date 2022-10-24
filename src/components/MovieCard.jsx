@@ -20,6 +20,7 @@ const MovieCard = ({poster_path,title,overview,vote_average, id}) => {
             return 'red'
         }
     };
+    
   return (
     <div className='movie' onClick={()=> {
         navigate('/details/'+id)
